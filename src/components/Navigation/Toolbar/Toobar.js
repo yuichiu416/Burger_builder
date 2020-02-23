@@ -6,7 +6,9 @@ import './Toobar.css';
 const toolbar = props => (
     <header className="Toolbar">
         <div>MENU</div>
-        <Logo/>
+        <div className="ToolbarLogo">
+            <Logo height="80%"/>
+        </div>
         
         <NavigationItems/>
     </header>
